@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+
+main 
+{
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 900px;
+  padding: 2%;
+  border: solid 1px yellowgreen;
+  border-radius: 40px;
+  box-shadow: 35px 0px 40px rgb(48, 49, 49), -20px 0px 30px rgb(51, 50, 50);
+  margin: auto;
+  background: url(Media/background.jpg) center/cover;
+  min-height: 100vh;
+  transition: 1.5s;
+ }
+
+header
+{
+ height: 200px;
+ padding-top: 5%;
+}
+
+.header
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+header img 
+{
+  height: 120px;
+  border-radius: 50%;
+}
+
+.header h2
+{
+  text-shadow: 1px 1px 1px;
+}
+
+.coordonnees img
+{
+  height: 30px;
+}
+.presentation
+{
+  width: 60%;
+  justify-content: center;
+  margin: 70px auto;
+  border: solid 1px yellowgreen;
+  border-radius: 20px;
+  padding: 20px;
+}
+.presentation h2, .presentation p
+{
+  text-align: center;
+}
+
+.section
+{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.left h3, .right h3
+{
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.barre {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  width: 300px;
+  height: 10px;
+  margin-bottom: 25px;
+}
+
+.right .ligne
+{
+  height: 100%;
+  background: linear-gradient(90deg, rgba(132,181,227,1) 0%, rgba(0,254,164,1) 50%, rgba(0,212,255,1) 100%);
+  border-radius: 50px;
+}
+.interets
+{
+  display: flex;
+}
+
+.interets p
+{
+  margin: 10px;
+}
+
